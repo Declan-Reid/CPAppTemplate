@@ -1,6 +1,6 @@
 # run `make all` to compile the .hhk and .bin file, use `make` to compile only the .bin file.
 # The .hhk file is the original format, the bin file is a newer format.
-APP_NAME:=app_template
+APP_NAME:=doodlepad
 
 ifndef SDK_DIR
 $(error You need to define the SDK_DIR environment variable, and point it to the sdk/ folder)
